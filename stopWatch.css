@@ -1,0 +1,71 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.makingStopWatch {
+
+    background-color: aliceblue;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.proprties-of-watch {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    font-family: 'Courier New', Courier, monospace;
+
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    font-size: large;
+    color: white;
+    padding: 10px;
+    background-color: black;
+    font-weight: 600;
+
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    transition: all 0.15s;
+
+}
+
+.btn:hover {
+    color: black;
+    background-color: transparent;
+    border-color: black;
+}
+
+.btn:active {
+    background-color: rgb(216, 216, 255);
+}
+
+.display-time {
+    font-family: monospace;
+
+    display: flex;
+    font-size: 70px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
